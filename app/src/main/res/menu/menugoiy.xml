@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="gợi ý 1 kí tự ngẫu nhiên(10đ)"
+        android:icon="@drawable/goi_y_random"/> <!-- Thay thế với ID biểu tượng thực tế -->
+    <item
+        android:id="@+id/menu_item2"
+        android:title="gợi ý 1 kí tự tự chọn(20đ)"
+        android:icon="@drawable/goi_y_chon"/> <!-- Thay thế với ID biểu tượng thực tế -->
+    <item
+        android:id="@+id/menu_item3"
+        android:title="xem đáp án(50đ)"
+        android:icon="@drawable/goi_y_dap_an"/> <!-- Thay thế với ID biểu tượng thực tế -->
+    <item
+        android:id="@+id/menu_item4"
+        android:title="thoát trò chơi"/>
+</menu>

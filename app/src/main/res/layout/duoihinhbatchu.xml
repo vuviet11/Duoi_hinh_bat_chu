@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DuoihinhbatchuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnhintrd"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/goi_y_random" />
+
+        <ImageButton
+            android:id="@+id/btnhinttc"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/tat_goi_y_chon" />
+
+        <TextView
+            android:id="@+id/txtscore"
+            android:layout_width="70dp"
+            android:layout_height="52dp"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/btnhintall"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/goi_y_dap_an" />
+
+        <ImageButton
+            android:id="@+id/btnmusic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/musicon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgcauhoi"
+            android:layout_width="411dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/answerButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806361761225",
+    "project_id": "duoi-hinh-bat-chu-poject",
+    "storage_bucket": "duoi-hinh-bat-chu-poject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806361761225:android:a8ab37c3e4dd156e9e1418",
+        "android_client_info": {
+          "package_name": "com.example.duoihinhbatchu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbKqnD9hghL08jO6E7EaQzzLXdBcXS3iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
